@@ -2,8 +2,8 @@ float temp;
 float vout;
 float vout1;
 int LED = 13;
-int gasSensor;
-int piezo = 7;
+int gasSensor;//LM-35
+int piezo = 7;//MQ-2 
 void setup()
 {
 pinMode(A0,INPUT);
